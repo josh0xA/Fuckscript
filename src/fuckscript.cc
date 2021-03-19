@@ -142,7 +142,7 @@ namespace fuckscript {
             break;
         }
       }
-    } else { throw exp::FSException("(error): .fs source cannot be located\n"); }
+    } else { throw exp::FSException("(error): .fks source cannot be located\n"); }
     return false;
   }
 
@@ -182,7 +182,7 @@ namespace fuckscript {
   }
 
   bool Environment::check_fs_source_extension(std::string fsource) {
-    if (fsource.substr(fsource.find_last_of(".") + 1) == "fs") {
+    if (fsource.substr(fsource.find_last_of(".") + 1) == "fks") {
       return true;
     } else { return false; }
   }
