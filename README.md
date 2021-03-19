@@ -1,2 +1,2 @@
-# fuckscript-
-The Fuckscript Esoteric Programming Language (BFE)
+# The Fuckscript Esoteric Programming Language 
+
