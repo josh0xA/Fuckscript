@@ -16,3 +16,25 @@ Fuckscript is an esoteric programming that is based off of brainfuck. It's more 
 | `fuckend` | marks the end of the loop |
 | `fuckset` | sets the memory pointer to 0 |
 
+### "Hello World" In Fuckscript
+- HellWorld.fks <br/>
+```
+fuckshiftfront fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckbegin fuckshiftback fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckshiftfront fucksub fuckend fuckshiftback fuckout
+fuckshiftfront fuckplus fuckplus fuckplus fuckplus fuckbegin fuckshiftback fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckshiftfront fucksub fuckend fuckshiftback fuckplus fuckout
+fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckout fuckout
+fuckplus fuckplus fuckplus fuckout
+fuckshiftfront fuckshiftfront fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckbegin fuckshiftback fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckshiftfront fucksub fuckend fuckshiftback fuckplus fuckplus fuckout
+fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fuckout
+fuckshiftfront fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckbegin fuckshiftback fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckshiftfront fucksub fuckend fuckshiftback fuckplus fuckout
+fuckshiftback fuckout
+fuckplus fuckplus fuckplus fuckout
+fucksub fucksub fucksub fucksub fucksub fucksub fuckout
+fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fuckout
+fuckshiftfront fuckshiftfront fuckshiftfront fuckplus fuckplus fuckplus fuckplus fuckbegin fuckshiftback fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckshiftfront fucksub fuckend fuckshiftback fuckplus fuckout
+```
+Output: ``Hello, World!``<br/>
+
+### License
+MIT License <br/>
+Copyright (c) 2021 Josh Schiavone
+
