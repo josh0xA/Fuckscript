@@ -1,0 +1,3 @@
+fuckshiftfront fuckin fuckshiftfront fuckin fuckshiftfront fuckin
+fuckshiftback fuckshiftback fuckshiftback fuckout
+fuckshiftfront fuckout fuckshiftfront fuckout fuckshiftfront fuckout
