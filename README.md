@@ -5,7 +5,7 @@ Fuckscript is an esoteric programming that is based off of brainfuck. It's more 
 
 ## Installation
 1. ``git clone https://gitnub.com/josh0xA/Fuckscript.git``<br/>
-2. ``cd Fuckscript-``<br/>
+2. ``cd Fuckscript``<br/>
 3. ``make``<br/>
 4. ``./fuckscript my_fuckscript_program.fks``<br/>
 
