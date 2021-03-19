@@ -9,7 +9,7 @@ Fuckscript is an esoteric programming that is based off of brainfuck. It's more 
 | `fuckplus` | increments the current value of the memory pointer (cell)|
 | `fucksub` | decrements the current value of the memory pointer (cell) |
 | `fuckshiftfront` | moves the memory pointer to the next cell |
-| `fuckshitback` | moves the memory pointer backwards to the previous cell|
+| `fuckshiftback` | moves the memory pointer backwards to the previous cell|
 | `fuckin` | user input, reads a character to stdin |
 | `fuckout` | outputs current value in the cell to stdout |
 | `fuckbegin` | enters a while loop |
