@@ -4,8 +4,8 @@
 Fuckscript is an esoteric programming that is based off of brainfuck. It's more intuitive, with more descriptive keywords, and it shares the same tape size of 30K bytes. Programmers have a lot of memory to work with, so they can design all sorts of applications. Fuckscript is also turing complete. The challenging part of programming in FS, is that programmers are not allowed to write comments, the interpreter forbids comments as it makes programming easier.<br/>
 
 ## Installation
-1. ``git clone https://gitnub.com/josh0xA/fuckscript-.git``<br/>
-2. ``cd fuckscript-``<br/>
+1. ``git clone https://gitnub.com/josh0xA/Fuckscript.git``<br/>
+2. ``cd Fuckscript-``<br/>
 3. ``make``<br/>
 4. ``./fuckscript my_fuckscript_program.fks``<br/>
 
