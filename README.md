@@ -7,7 +7,7 @@ Fuckscript is an esoteric programming that is based off of brainfuck. It's more 
 *An esoteric programming language is a programming language designed to test the boundaries of computer programming language design, as a proof of concept, as software art, as a hacking interface to another language, or as a joke.* <a href="https://en.wikipedia.org/wiki/Esoteric_programming_language">Wikipedia</a><br/>
 
 ## Installation
-1. ``git clone https://gitnub.com/josh0xA/Fuckscript.git``<br/>
+1. ``git clone https://github.com/josh0xA/Fuckscript.git``<br/>
 2. ``cd Fuckscript``<br/>
 3. ``make``<br/>
 4. ``./fuckscript my_fuckscript_program.fks``<br/>
