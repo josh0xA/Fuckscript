@@ -1,7 +1,7 @@
 # The Fuckscript Esoteric Programming Language 
 
 ## About Fuckscript
-Fuckscript is an esoteric programming language that is based off of brainfuck. It's more intuitive, with more descriptive keywords, and it shares the same tape size of 30K bytes. Programmers have a lot of memory to work with, so they can design all sorts of applications. Fuckscript is also turing complete. The challenging part of programming in FS is that programmers are not allowed to write comments, the interpreter forbids comments as it makes programming easier.<br/>
+Fuckscript is a joke esoteric programming language created by Josh Schiavone. Fuckscript is based heavily off of Brainfuck although it is argued that It's more intuitive, with more descriptive keywords, and it shares the same tape size of 30 000 bytes. Programmers have a lot of memory to work with, so they can design all sorts of applications. Fuckscript is also said to be Turing complete so it's perfectly for developing a self-driving car. The challenging part of programming in Fuckscript is that programmers are not allowed to write comments, the interpreter forbids comments as it makes programming easier. <br/>
 
 ## Wiki
 https://esolangs.org/wiki/Fuckscript
