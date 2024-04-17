@@ -1,7 +1,7 @@
 # The Fuckscript Esoteric Programming Language 
 
 ## About Fuckscript
-Fuckscript is an esoteric programming language that is based off of brainfuck. It's more intuitive, with more descriptive keywords, and it shares the same tape size of 30K bytes. Programmers have a lot of memory to work with, so they can design all sorts of applications. Fuckscript is also turing complete. The challenging part of programming in FS, is that programmers are not allowed to write comments, the interpreter forbids comments as it makes programming easier.<br/>
+Fuckscript is an esoteric programming language that is based off of brainfuck. It's more intuitive, with more descriptive keywords, and it shares the same tape size of 30K bytes. Programmers have a lot of memory to work with, so they can design all sorts of applications. Fuckscript is also turing complete. The challenging part of programming in FS is that programmers are not allowed to write comments, the interpreter forbids comments as it makes programming easier.<br/>
 
 ## Wiki
 https://esolangs.org/wiki/Fuckscript
@@ -18,35 +18,53 @@ https://esolangs.org/wiki/Fuckscript
 ## The Language Basics
 | Instruction | Description |
 | --- | --- |
-| `fuckplus` | increments the current value of the memory pointer (cell)|
-| `fucksub` | decrements the current value of the memory pointer (cell) |
-| `fuckshiftfront` | moves the memory pointer to the next cell |
-| `fuckshiftback` | moves the memory pointer backwards to the previous cell|
-| `fuckin` | user input, reads a character to stdin |
-| `fuckout` | outputs current value in the cell to stdout |
-| `fuckbegin` | enters a while loop |
-| `fuckend` | marks the end of the loop |
-| `fuckset` | sets the memory pointer to 0 |
+| `FUCK` | increments the current value of the memory pointer (cell)|
+| `FUCKK` | decrements the current value of the memory pointer (cell) |
+| `FFUCK` | moves the memory pointer to the next cell |
+| `FUCKKK` | moves the memory pointer backwards to the previous cell|
+| `FUCKER` | user input, reads a character to stdin |
+| `FUCKITY` | outputs current value in the cell to stdout |
+| `WHATTHEFUCK` | enters a while loop |
+| `IAMFUCKED` | marks the end of the loop |
+| `THISISFUCKED` | sets the memory pointer to 0 |
 
-### "Hello World" In Fuckscript
+### "Hello World" in Fuckscript
 - HellWorld.fks <br/>
 ```
-fuckshiftfront fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckbegin fuckshiftback fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckshiftfront fucksub fuckend fuckshiftback fuckout
-fuckshiftfront fuckplus fuckplus fuckplus fuckplus fuckbegin fuckshiftback fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckshiftfront fucksub fuckend fuckshiftback fuckplus fuckout
-fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckout fuckout
-fuckplus fuckplus fuckplus fuckout
-fuckshiftfront fuckshiftfront fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckbegin fuckshiftback fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckshiftfront fucksub fuckend fuckshiftback fuckplus fuckplus fuckout
-fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fuckout
-fuckshiftfront fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckbegin fuckshiftback fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckshiftfront fucksub fuckend fuckshiftback fuckplus fuckout
-fuckshiftback fuckout
-fuckplus fuckplus fuckplus fuckout
-fucksub fucksub fucksub fucksub fucksub fucksub fuckout
-fucksub fucksub fucksub fucksub fucksub fucksub fucksub fucksub fuckout
-fuckshiftfront fuckshiftfront fuckshiftfront fuckplus fuckplus fuckplus fuckplus fuckbegin fuckshiftback fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckplus fuckshiftfront fucksub fuckend fuckshiftback fuckplus fuckout
+FFUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK WHATTHEFUCK FUCKKK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FFUCK FUCKK IAMFUCKED FUCKKK FUCKITY
+FFUCK FUCK FUCK FUCK FUCK WHATTHEFUCK FUCKKK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FFUCK FUCKK IAMFUCKED FUCKKK FUCK FUCKITY
+FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCKITY FUCKITY
+FUCK FUCK FUCK FUCKITY
+FFUCK FFUCK FUCK FUCK FUCK FUCK FUCK FUCK WHATTHEFUCK FUCKKK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FFUCK FUCKK IAMFUCKED FUCKKK FUCK FUCK FUCKITY
+FUCKK FUCKK FUCKK FUCKK FUCKK FUCKK FUCKK FUCKK FUCKK FUCKK FUCKK FUCKK FUCKITY
+FFUCK FUCK FUCK FUCK FUCK FUCK FUCK WHATTHEFUCK FUCKKK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FFUCK FUCKK IAMFUCKED FUCKKK FUCK FUCKITY
+FUCKKK FUCKITY
+FUCK FUCK FUCK FUCKITY
+FUCKK FUCKK FUCKK FUCKK FUCKK FUCKK FUCKITY
+FUCKK FUCKK FUCKK FUCKK FUCKK FUCKK FUCKK FUCKK FUCKITY
+FFUCK FFUCK FFUCK FUCK FUCK FUCK FUCK WHATTHEFUCK FUCKKK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FFUCK FUCKK IAMFUCKED FUCKKK FUCK FUCKITY
+
 ```
 Output: ``Hello, World!``<br/>
 
+### Sum Two Numbers in Fuckscript
+```
+FUCKER
+FFUCK
+FUCKER
+FUCKKK
+FFUCK
+WHATTHEFUCK
+  FUCKK
+  FUCKKK
+  FUCK
+  FFUCK
+IAMFUCKED
+FUCKKK
+FUCKITY
+```
+
 ### License
 MIT License <br/>
-Copyright (c) 2021 Josh Schiavone
+Copyright (c) 2024 Josh Schiavone
 

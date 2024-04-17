@@ -1,7 +1,7 @@
 /*
 MIT License
 
-Copyright (c) 2021 Josh Schiavone
+Copyright (c) 2024 Josh Schiavone
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,33 +20,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-*/
-
-/*
-      The Fuckscript Esoteric Programming Language
-                A Brainfuck-Equivalent
-              Written as joke by: Josh Schiavone
-                https://github.com/josh0xA
-                 Why use Fuckscript?
-                 ===================
-              - It's turing complete
-              - More intuitive than traditonal brainfuck
-              - The developer LOVES esolangs
-*/
-
-/*
-              Language Basics (Brainfuck bindings)
-              ====================================
-  fuckplus: increments the current value of the memory pointer (cell)
-  fucksub: decrements the current value of the memory pointer (cell)
-  fuckshiftfront: moves the memory pointer to the next cell
-  fuckshitback: moves the memory pointer backwards to the previous cell
-  fuckin: user input, reads a character to stdin
-  fuckout: outputs current value in the cell to stdout
-  fuckbegin: enters a while loop
-  fuckend: marks the end of the loop
-  fuckset: sets the memory pointer to 0
-
 */
 
 #include "fuckscript.hh"
@@ -86,25 +59,30 @@ namespace fuckscript {
   template <typename Fsarg>
   inline void Handler<Fsarg>::fuckscript_show_stdout_buffer(Environment& env, Fsarg execparam) {
     if (execparam) {
-      fs_word printablechar_;
-      printablechar_ = char (*env.fs_memory_pointer);
-      std::cout << printablechar_;
-      /*
+      fs_word printablechar_ = *env.fs_memory_pointer;
+      
       if (!isprint(printablechar_)) {
         std::cout << std::dec << static_cast<fsint_t> (printablechar_);
+      } else {
+        printablechar_ = char (*env.fs_memory_pointer);
+        std::cout << printablechar_;
       }
-      */
+      
     } else return;
   }
+
 
   template <typename Fsarg>
   inline void Handler<Fsarg>::fuckscript_read_stdin_buffer(Environment& env, Fsarg execparam) {
     if (execparam) {
-      fs_word fsinput; std::cin >> fsinput;
-      (*env.fs_memory_pointer) = fsinput;
+      char fsinput;
+      std::cin >> fsinput;  // Read the character
+      if (isdigit(fsinput)) {
+        (*env.fs_memory_pointer) = fsinput - '0';  // Convert from ASCII to integer
+      }
     } else return;
-
   }
+
 
   template <typename Fsarg>
   inline void Handler<Fsarg>::fuckscript_push_instruction(Environment& env, fsint_t instr, Fsarg execparam) {
@@ -211,7 +189,7 @@ namespace fuckscript {
       }
 
       if (loop_counter != FS_SUCCESS_CODE_STANDARD) {
-        std::cerr << "(error): 'fuckbegin' has no matching 'fuckend'";
+        std::cerr << "(error): 'WHATTHEFUCK' has no matching 'IAMFUCKED'";
       }
     } else {
         throw exp::FSException("(error): source file must contain a valid fuckscript extension\n");

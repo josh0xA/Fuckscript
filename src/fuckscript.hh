@@ -1,7 +1,7 @@
 /*
 MIT License
 
-Copyright (c) 2021 Josh Schiavone
+Copyright (c) 2024 Josh Schiavone
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -47,15 +47,15 @@ SOFTWARE.
  *Fuckscript instructions
  *as predefs
 */
-#define FS_INCREMENT_VALUE "fuckplus"
-#define FS_DECREMENT_VALUE "fucksub"
-#define FS_CELL_SHIFT_BACK "fuckshiftback"
-#define FS_CELL_SHIFT_FRONT "fuckshiftfront"
-#define FS_READ_STDIN_BUFFER "fuckin"
-#define FS_SHOW_STDOUT_BUFFER "fuckout"
-#define FS_LOOP_BEGIN "fuckbegin"
-#define FS_LOOP_END "fuckend"
-#define FS_RESET_BUFF "fuckset"
+#define FS_INCREMENT_VALUE "FUCK" // Increment cell value
+#define FS_DECREMENT_VALUE "FUCKK" // Decrement cell value  
+#define FS_CELL_SHIFT_BACK "FUCKKK" // move pointer to prev cell
+#define FS_CELL_SHIFT_FRONT "FFUCK" // move pointer to next cell
+#define FS_READ_STDIN_BUFFER "FUCKER" // read from stdin      
+#define FS_SHOW_STDOUT_BUFFER "FUCKITY" // output current cell value to stdout
+#define FS_LOOP_BEGIN "WHATTHEFUCK" // start while loop
+#define FS_LOOP_END "IAMFUCKED" // end the loop
+#define FS_RESET_BUFF "THISISFUCKED" // sets memory pointer to 0
 /*
  * Fuckscript instructions as
  * opcode
